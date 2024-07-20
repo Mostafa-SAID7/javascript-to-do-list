@@ -1,0 +1,161 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #05040c;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(
+    to top,
+    #05040c,
+    rgba(255, 255, 255, 0.459)
+  );
+}
+.task {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  /* morphism effect */
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-bottom: 3px solid #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7px);
+  -webkit-backdrop-filter: blur(7px);
+  transition: 1s;
+}
+
+.task:hover {
+  scale: 1.1;
+  border-radius: 30px;
+  box-shadow: 1px 5px 20px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(7px);
+  border-bottom: 1px solid #fff;
+}
+
+.task-text {
+  overflow: hidden;
+}
+
+p {
+  font-size: 22px;
+}
+
+.icon:hover {
+  font-size: 26px;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.icon-star,
+.icon-trash {
+  opacity: 0.4;
+  font-size: 27px;
+}
+
+.icon-star:hover {
+  color: orange;
+  opacity: 1;
+  font-size: 29px;
+}
+
+.icon-trash {
+  margin-right: 10px;
+  font-size: 27px;
+}
+
+.icon-trash:hover {
+  color: rgb(255, 242, 217);
+  font-size: 29px;
+  opacity: 1;
+}
+
+.icon-angry2 {
+  color: rgb(247, 219, 97);
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 200px;
+}
+
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+  width: 35vw;
+  font-size: 21px;
+  text-align: center;
+  transition: 1s;
+}
+
+input:hover {
+  border-radius: 20px;
+}
+
+button {
+  all: unset;
+}
+
+.icon-upload {
+  font-size: 40px;
+
+  margin-left: 17px;
+
+  position: relative;
+  top: 9px;
+}
+
+.icon-upload:hover {
+  font-size: 43px;
+  transition: 0.2s;
+  color: rgb(160, 250, 205);
+}
+
+/* for javascript */
+.dn {
+  display: none;
+}
+
+.icon-heart {
+  font-size: 23px;
+  color: rgb(255, 102, 102);
+}
+
+.icon-heart:hover {
+  font-size: 25px;
+  transition: 0.2s;
+}
+
+.finish {
+  text-decoration-line: line-through;
+  text-decoration-style: wavy;
+}
+
+.orange {
+  color: orange;
+  opacity: 1;
+}
